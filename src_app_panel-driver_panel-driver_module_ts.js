@@ -339,9 +339,7 @@ let PanelDriverPage = class PanelDriverPage {
             console.log(this.id);
             //this.leafletMap();
             console.log(this.id);
-            if (this.id == 1) {
-                window.location.reload();
-            }
+           
             this.navParamService.clear();
             this.storage.get('storage_xxx').then((res) => {
                 console.log(res);
