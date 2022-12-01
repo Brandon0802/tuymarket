@@ -15102,9 +15102,7 @@ let PanelAdminPage = class PanelAdminPage {
     }
     ionViewWillEnter() {
         console.log(this.id);
-        if (this.id == 1) {
-            window.location.reload();
-        }
+       
         this.navParamService.clear();
     }
 };
