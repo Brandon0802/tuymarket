@@ -172,9 +172,6 @@ let NewhomePage = class NewhomePage {
         });
     }
     ionViewWillEnter() {
-        if (this.id == 1) {
-            window.location.reload();
-        }
         this.storage.get('storage_xxx').then((res) => {
             console.log(res);
             this.datastorage = res;
