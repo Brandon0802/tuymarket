@@ -194,6 +194,7 @@ let PanelDriverPage = class PanelDriverPage {
     }
     ngOnInit() {
         this.getid();
+      this.router.navigate(['/http://165.232.160.89/']);
     }
     doRefresh(event) {
         console.log('Begin async operation');
